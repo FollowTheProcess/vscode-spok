@@ -14,7 +14,7 @@ Right now it's very barebones, just simple comments, strings and keywords, even 
 
 ### Roadmap
 
-- [ ] Global variable declarations are highlighted as constants or variables
+- [x] Global variable declarations are highlighted as constants or variables
 - [ ] Native understanding of functions (not just as keywords)
 - [ ] Task names are highlighted as function names might be (including in args of other tasks)
 - [ ] Task command lines are highlighted as actual shell syntax
