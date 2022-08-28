@@ -3,18 +3,29 @@
 	"name": "Spokfile",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#comments"
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#keywords"
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.spok",
+					"match": "^#.*"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.control.spok",
-					"match": "\\b(if|while|for|return)\\b"
+					"match": "\\b(task|exec|join)\\b"
 				}
 			]
 		},
