@@ -2,28 +2,28 @@
 
 A VSCode extension providing language support and syntax highlighting for spokfiles, the declarative language used by the [spok] build system/task runner.
 
+**Before:**
+![plain](img/plain.png)
+
+**After:**
+![highlighted](img/highlighted.png)
+
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Right now it's very barebones, just simple comments, strings and keywords, even this though results in quite a nice appearance 🙂
 
-For example if there is an image subfolder under your extension project workspace:
+### Roadmap
+
+- [ ] Global variable declarations are highlighted as constants or variables
+- [ ] Native understanding of functions (not just as keywords)
+- [ ] Task names are highlighted as function names might be (including in args of other tasks)
+- [ ] Task command lines are highlighted as actual shell syntax
+- [ ] Potentially some more advanced functionality like autocomplete, task running etc.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.1.0
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
+Initial barebones release 🎉
 
 [spok]: https://github.com/FollowTheProcess/spok

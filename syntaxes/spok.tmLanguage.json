@@ -24,7 +24,7 @@
 		"keywords": {
 			"patterns": [
 				{
-					"name": "keyword.control.spok",
+					"name": "keyword.other.spok",
 					"match": "\\b(task|exec|join)\\b"
 				}
 			]

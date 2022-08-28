@@ -2,8 +2,8 @@
 
 All notable changes to the "spok" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.1.0]
 
-## [Unreleased]
+- Initial barebones release 🎉
 
-- Initial release
+[0.1.0]: https://github.com/FollowTheProcess/vscode-spok/releases/tag/v0.1.0
