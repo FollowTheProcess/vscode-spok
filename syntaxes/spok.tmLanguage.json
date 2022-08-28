@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#assignments"
+		},
+		{
+			"include": "#arrowOperator"
 		}
 	],
 	"repository": {
@@ -55,6 +58,14 @@
 							"name": "variable.name.spok"
 						}
 					}
+				}
+			]
+		},
+		"arrowOperator": {
+			"patterns": [
+				{
+					"name": "keyword.operator.spok",
+					"match": "->"
 				}
 			]
 		}
