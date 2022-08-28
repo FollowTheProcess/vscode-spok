@@ -3,10 +3,10 @@
 A VSCode extension providing language support and syntax highlighting for spokfiles, the declarative language used by the [spok] build system/task runner.
 
 **Before:**
-![plain](img/plain.png)
+![plain](https://github.com/FollowTheProcess/vscode-spok/raw/main/images/plain.png)
 
 **After:**
-![highlighted](img/highlighted.png)
+![highlighted](https://github.com/FollowTheProcess/vscode-spok/raw/main/images/highlighted.png)
 
 ## Features
 
