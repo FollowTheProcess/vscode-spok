@@ -1,0 +1,25 @@
+{
+  "name": "spok",
+  "displayName": "Spok",
+  "description": "Syntax highlighting for spokfiles",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "spok",
+      "aliases": ["Spokfile", "spok"],
+      "extensions": [""],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "spok",
+      "scopeName": "source.spok",
+      "path": "./syntaxes/spok.tmLanguage.json"
+    }]
+  }
+}
