@@ -2,24 +2,54 @@
   "name": "spok",
   "displayName": "Spok",
   "description": "Syntax highlighting for spokfiles",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "publisher": "FollowTheProcess",
+  "license": "Apache 2.0",
+  "icon": "img/icon.png",
   "engines": {
     "vscode": "^1.70.0"
   },
+  "keywords": [
+    "spok",
+    "spokfile",
+    "task",
+    "make",
+    "just",
+    "task runner",
+    "build system"
+  ],
+  "repository": {
+    "url": "https://github.com/FollowTheProcess/vscode-spok.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FollowTheProcess/vscode-spok/issues"
+  },
+  "homepage": "https://github.com/FollowTheProcess/vscode-spok",
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Other"
   ],
   "contributes": {
-    "languages": [{
-      "id": "spok",
-      "aliases": ["Spokfile", "spok"],
-      "extensions": [""],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "spok",
-      "scopeName": "source.spok",
-      "path": "./syntaxes/spok.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "spok",
+        "aliases": [
+          "Spokfile",
+          "spok",
+          "Spok"
+        ],
+        "filenames": [
+          "spokfile"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "spok",
+        "scopeName": "source.spok",
+        "path": "./syntaxes/spok.tmLanguage.json"
+      }
+    ]
   }
 }
